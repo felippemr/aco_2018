@@ -6,7 +6,7 @@ fn main() {
     let mut frequencies = HashSet::new();
 
     let mut acc: i32 = 0;
-    while true {
+    loop {
         let data = data.split("\n");
         for value in data {
             match value.parse::<i32>() {
