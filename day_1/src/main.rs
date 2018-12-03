@@ -2,7 +2,7 @@ use std::fs;
 use std::collections::HashSet;
 
 fn main() {
-    let data = fs::read_to_string("/Users/felipperaposo/Projects/aoc_2018/day_1_puzzle_1/assets/input.txt").expect("Unable to read file!");
+    let data = fs::read_to_string("assets/input.txt").expect("Unable to read file!");
     let mut frequencies = HashSet::new();
 
     let mut acc: i32 = 0;
