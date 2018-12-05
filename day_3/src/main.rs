@@ -2,7 +2,6 @@ use std::fs;
 mod suit_measure_parser;
 
 
-
 // puzzle 1
 fn main() {
     let data = fs::read_to_string("assets/input.txt").expect("Unable to read file!");

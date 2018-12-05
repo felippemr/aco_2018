@@ -10,7 +10,7 @@ impl std::fmt::Display for SuitMeasure {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         write!(
             f,
-            "(id: {}, left_edge: {}, top_edge: {}, width: {}, height: {})",
+            "SuitMeasure(id: {}, left_edge: {}, top_edge: {}, width: {}, height: {})",
             self.id, self.left_edge, self.top_edge, self.width, self.height
         )
     }
