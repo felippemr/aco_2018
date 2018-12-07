@@ -33,4 +33,13 @@ impl SuitMeasure {
             height: parse_int(size_split[1]),
         }
     }
+    pub fn unit_top_edges(&self) -> Vec<(i32, i32)> {
+        let mut edges = Vec::new();
+        for y in self.top_edge..self.top_edge+self.height {
+            for x in self.left_edge..self.left_edge+self.width {
+                edges.push((x, y));
+            }
+        }
+        edges
+    }
 }
