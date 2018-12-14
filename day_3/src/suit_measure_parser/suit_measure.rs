@@ -1,5 +1,5 @@
 pub struct SuitMeasure {
-    id: String,
+    pub id: String,
     left_edge: i32,
     top_edge: i32,
     width: i32,
